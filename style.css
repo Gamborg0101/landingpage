@@ -31,24 +31,13 @@ button {
   font-weight: bold;
 }
 
-.header-hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
 .header {
   background-color: #1f2937;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 15px;
-}
-
-.header-logo {
-  margin-left: 100px;
 }
 
 .links {
@@ -57,27 +46,27 @@ button {
   margin-right: 100px;
 }
 
-.hero {
-  background-color: #1f2937;
+.textsection-left {
   color: white;
-  flex: 1;
 }
 
-.hero-container {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 100px;
+.header-right {
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.hero-elements {
+.header-right-container,
+.header-left-container {
   display: flex;
   flex-direction: column;
   width: 500px;
 }
 
-.hero-placeholder {
+.picture-placeholder {
   background-color: grey;
   width: 600px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
