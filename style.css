@@ -13,11 +13,12 @@ p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 64px;
 }
 
 h2 {
   color: white;
+  font-size: 30px;
 }
 
 a {
@@ -52,10 +53,39 @@ button {
 .hero {
   display: flex;
   flex-direction: column;
+  background-color: #1f2937;
 }
 
 .image-placerholder {
-  background-color: #1f2937;
-  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 300px;
+  width: 600px;
   color: white;
+  font-size: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.hero-container-content {
+  width: 550px;
+}
+
+.hero-container-content-subtext p {
+  color: white;
+  margin-top: -0;
+}
+
+.hero-container-content-headerliner h1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0px;
 }
