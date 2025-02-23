@@ -99,29 +99,33 @@ button {
   color: #1f2937;
 }
 
-.column-white-title {
+.column-white-title p {
   display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 20px;
   justify-content: center;
-  align-items: center;
 }
 
 .column-white-all-boxes {
   display: flex;
+  margin-top: 50px;
   height: 500px;
-
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }
 
 .column-white-box {
   border: 5px solid #3882f6;
+  justify-content: center;
   border-radius: 10px;
   width: 200px;
   height: 200px;
 }
 
-.column-white-box p {
-  background-color: #3882f6;
+.text1 {
+  font-size: 20px;
+  width: 200px;
 }
 
 .column-white-text {
