@@ -124,7 +124,6 @@ button {
 
 .text1 {
   text-align: center;
-
   font-size: 22px;
   width: 200px;
 }
@@ -142,9 +141,6 @@ button {
   background-color: #e5e7eb;
 }
 
-.quote-section-container {
-}
-
 .quote-section-container-quote p {
   color: #1f2937;
   width: 1000px;
@@ -158,4 +154,36 @@ button {
   margin-top: 20px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.call-to-action-section {
+  width: 1500px;
+  height: 200px;
+  background-color: #3882f6;
+  border-radius: 20px;
+}
+.call-to-action-sectio-text-and-button {
+  display: flex;
+  height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.call-to-action-large-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.call-to-action-small-text p {
+  font-weight: 100;
+}
+
+.call-to-action-section-button button {
+  border: 3px solid white;
 }
