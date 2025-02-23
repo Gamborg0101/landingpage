@@ -160,7 +160,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .call-to-action-section {
   width: 1500px;
@@ -186,4 +187,15 @@ button {
 
 .call-to-action-section-button button {
   border: 3px solid white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 150px;
+}
+.footer-text p {
+  color: #e5e7eb;
 }
