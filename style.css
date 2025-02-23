@@ -58,7 +58,6 @@ button {
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: cen;
   background-color: #1f2937;
   height: 500px;
 }
@@ -131,4 +130,30 @@ button {
 .column-white-text {
   display: flex;
   justify-content: space-evenly;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #e5e7eb;
+}
+
+.quote-section-container {
+}
+
+.quote-section-container-quote p {
+  color: #1f2937;
+  width: 1000px;
+  font-size: 42px;
+  font-weight: 100;
+  font-style: italic;
+}
+.quote-section-container-quote-name p {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
